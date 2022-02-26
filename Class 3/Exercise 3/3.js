@@ -5,4 +5,4 @@ function seperate (baseObj) {
         values.push(baseObj[key])};
     console.log(keys, values);
     }
-seperate({ b: 2,a: 1, c: 3 });
+seperate({ a: "Apple", c: "Microsoft", b: "Google" });

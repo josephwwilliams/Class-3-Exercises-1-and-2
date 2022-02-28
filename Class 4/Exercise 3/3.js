@@ -5,5 +5,4 @@ function getTime () {
   currentTime = time.toLocaleTimeString('en-US')
   timeCurrent.innerText = currentTime
 }
-
 getTime()

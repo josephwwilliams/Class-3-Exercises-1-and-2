@@ -2,4 +2,6 @@
   background-color: rgb(63, 175, 63);
   text-align: center;
   max-width: fit-content;
+  padding: 15px;
+  border: 2px solid;
 }

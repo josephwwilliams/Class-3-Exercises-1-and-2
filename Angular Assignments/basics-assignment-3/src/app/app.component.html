@@ -1,0 +1,7 @@
+<button class="btn btn-primary"(click)='adding()'>Display Details</button>
+<p *ngIf="showLorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, unde!</p>
+<div
+*ngFor="let holds of hold"
+[ngStyle]="{backgroundColor: holds >= 5 ?'blue':'white'}"
+[ngClass]="{'white': holds >= 5}"
+>{{holds}}</div>

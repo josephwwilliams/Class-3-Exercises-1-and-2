@@ -1,0 +1,12 @@
+<input
+  type="text"
+  class="form-control"
+  placeholder="Username Here!"
+  [(ngModel)]="username"
+  >
+<div class="container">
+  <p>
+    {{username}} says "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eos!"
+  </p>
+<button class="btn btn-primary"[disabled]="username === ''"(click)="deletes()">Reset!</button>
+</div>

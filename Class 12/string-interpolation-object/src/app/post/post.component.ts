@@ -10,6 +10,7 @@ export class PostComponent implements OnInit {
     firstName:'Joe',
     lastName: 'Williams'
   }
+  infoList = (this.info.firstName + " " + this.info.lastName)
   constructor() { }
 
   ngOnInit(): void {

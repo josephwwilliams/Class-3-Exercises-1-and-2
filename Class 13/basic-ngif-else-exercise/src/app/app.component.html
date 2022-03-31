@@ -1,0 +1,11 @@
+<div class="container">
+  <p *ngIf="isShowContent; else other">
+    If isShowContent is true, show me!
+  </p>
+  <ng-template #other>
+    <p >
+      Use else to show me!
+    </p>
+  </ng-template>
+  <button (click)="isShowContent=!isShowContent" class="btn btn-primary">Click me to reverse the value of isShowContent!</button>
+</div>

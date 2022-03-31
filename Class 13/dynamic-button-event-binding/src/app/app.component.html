@@ -1,0 +1,8 @@
+<div class="container">
+  <input type="text" [disabled]="isDisabled">
+  <hr>
+  <button class="btn btn-primary" (click)="isDisabled=!isDisabled">
+    {{isDisabled ? "Currenlty disabled" : "Click me to change the value of isDisabled!"}}
+  </button>
+</div>
+

@@ -1,0 +1,4 @@
+<div *ngFor="let number of oddCheck">
+  <div [ngStyle]="{'background-color':'blue'}" *ngIf="number % 2 !== 0;"> {{ number }} is ODD </div>
+</div>
+

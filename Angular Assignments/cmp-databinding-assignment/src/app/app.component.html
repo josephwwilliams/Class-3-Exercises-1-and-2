@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <app-game-control (NumbersCheck)="logicCheck($event)"></app-game-control>
+      <app-even [evenCheck]="displayNumber"></app-even>
+      <app-odd [oddCheck]="displayNumber" ></app-odd>
+    </div>
+  </div>
+</div>

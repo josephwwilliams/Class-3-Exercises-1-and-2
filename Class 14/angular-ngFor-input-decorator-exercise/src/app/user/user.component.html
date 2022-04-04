@@ -1,0 +1,10 @@
+<div class="container" [ngStyle]="{'text-align':'center'}">
+  <h1 [ngStyle]="{'color': 'red'}">List of Users:</h1>
+  <h1 class="border" [ngStyle]="{'margin': '25px 50px 75px 100px'}" *ngFor="let i of inputUser">
+    Username: {{i.username}}
+    <h1>
+      ID: {{i.id}}
+    </h1>
+  </h1>
+</div>
+
